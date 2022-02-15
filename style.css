@@ -1,0 +1,226 @@
+html{
+    background-color: #fc6767;
+    width: 100%;
+}
+
+body{
+    text-align: center;
+    width: 90% center;
+}
+/*Barre de navigation*/
+nav{
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+nav .profil{
+    display: flex;
+    align-items: center;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    padding-right: 5%;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px blue;
+}
+nav ul li:hover{
+    border-bottom-color: blue;
+}
+
+/*La section n°1*/
+section{
+    width: 90%;
+}
+
+section{
+    margin: 4%;
+    background-color: whitesmoke
+}
+
+
+             /*div a propos de moi*/
+       .apropos h1{
+           display: flex;
+           justify-content: center;
+       }      
+      
+       
+       .apropos .item{
+           display: flex;
+           justify-content: left;
+       }
+      /*Element du responsive*/
+
+@media screen and (max-width: 700px) {
+    
+}
+
+
+/*Header image et texte de l'image*/
+
+header div img{
+    width: 100%;
+}
+
+header div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+header div img{
+    margin-top: 0;
+}
+
+
+header div .un{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    animation-duration: 15s;
+        animation-name: slidein;
+}
+
+header div h1{
+    width: 40%;
+}
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+      header nav img:hover{
+          border-bottom-color: #ccc;
+      }
+
+
+                     /*competences*/
+               .section2{
+                    margin-top: 5%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    background-color: aliceblue;
+                    color: brown;
+                }     
+          section section h1{
+              display: flex;
+              justify-content: center;
+
+          }
+
+          .competence{
+              display: flex;
+            justify-content: center;
+          }
+         
+        
+        
+        
+        section div .imgage2{
+            width: 30%;
+        }
+    
+        footer{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+          footer{
+            background-color: black;
+            width: 100%;
+          }
+        
+        
+          footer .colonne h3{
+              display: flex;
+              justify-content: center;
+          }
+          footer{
+              color: whitesmoke;
+          }
+          footer p{
+              cursor: pointer;
+          }
+          footer p:hover{
+              border-bottom: #ccc;
+          }
+         footer p{
+             display: flex;
+             justify-content: center;     
+       }
+section{
+    display: flex;
+    justify-content: space-around;
+}
+#co-mpet{
+    text-align: center;
+}
+footer article{
+    display: flex;
+}
+#apropo{
+    margin-bottom: 30%;
+    margin-left: 1%;
+}
+
+section{
+    margin-bottom: 20%;
+}
+#co-mpet{
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
+
+.container h1{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    padding-left: 0%;
+    padding-right: 1%;
+}
+.projet{
+    text-align: center;
+}
+.card-1 img{
+    width: 30%;
+}
+.card-1{
+    margin-left: 0;
+    margin-right: 0;
+    width: 70%;
+}
