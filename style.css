@@ -16,7 +16,9 @@ nav{
     justify-content: space-between;
     color: aliceblue;
 }
-
+@media screen {
+    
+}
 nav .profil{
     display: flex;
     align-items: center;
