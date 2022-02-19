@@ -95,7 +95,7 @@ main{
 @media only screen and (max-width:600px){
     html{
         background-color: white;
-        width: 80%;
+        width: 100%;
         color: aliceblue;
     }.info-1 .item{
         background-color: white;
@@ -130,6 +130,7 @@ main{
         width: 100%;
         background-color: #f5fffa;
         color: #191970;
+        padding-left: 12%;
 
     }
     nav{
