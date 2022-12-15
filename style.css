@@ -24,7 +24,10 @@ body{
 }
 
 /*fin de code de la nav-bar */
-
+.image-accueil{
+    display: flex;
+    justify-content: space-around;
+}
 
 /*header{
     text-align: center;
