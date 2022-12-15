@@ -118,7 +118,7 @@ main{
         width: 100%;
         color: aliceblue;
     }.info-1 .item{
-        background-color: white;
+        
         color: black;
         
     }
@@ -126,7 +126,7 @@ main{
         background-color: blanchedalmond;
     }
     nav ul li{
-        color: #191970;
+        color: #030303;
     }
     body{
         text-align: center;
@@ -194,7 +194,7 @@ main{
         flex-direction: column;
     }
     footer{
-       background-color: green;
+      
        color: black;
        display: inline;
     }
@@ -260,6 +260,6 @@ footer .P-fin{
     
 }
 .colonne{
-    background-color: rgb(4, 12, 88);
+    background-color: rgb(192, 193, 202);
     border-bottom: 25%;
 }
