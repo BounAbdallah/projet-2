@@ -332,6 +332,7 @@ section{
 .front {
   transform: translateZ(100px); /* définit la distance entre l'élément et l'observateur */
   background-color: rgb(255, 255, 255);
+  opacity: 80%;
   color: black;
   display: flex;
   justify-content: center;
@@ -339,7 +340,7 @@ section{
 
 .back {
   transform: rotateY(180deg) translateZ(100px); /* retourne l'élément de 180 degrés sur l'axe Y pour montrer le côté arrière */
-  background-color: rgb(34, 46, 34);
+  background-color: rgb(72, 170, 72);
   color: white;
   display: flex;
   justify-content: center;
@@ -513,5 +514,75 @@ section{
   .nav-bar ul {
     margin-top: 20px;
   }
+
+
+.clavier {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 15px solid #4c7f94; /* bordure bleu ciel */
+  border-radius: 50%; /* cercle */
+  padding: 10px; /* espace entre la photo et la bordure */
+  background-color: #FFF; /* fond blanc */
+  padding-left: 5px;
+}
+
+section{
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 1.2px;
+}
+
+#typing-effect {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  white-space: wrap;
+  overflow: hidden;
+  border-right: 0.15em solid #000;
+  animation: typing 5s steps(30, end), blink-caret 0.8s step-end infinite;
+}
+#typin-effect {
+  color: #4c7f94;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #000;
+  animation: typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+.text-container {
+  flex: 4; 
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.image-container{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.image-container {
+  width: 100px; /* largeur de l'image */
+  height: 100px; /* hauteur de l'image */
+  margin-right: 20px; /* espace entre l'image et le texte */
+  margin-left: 26px;
+}
+
+.clavier {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 8px solid #4c7f94; /* bordure bleu ciel */
+  border-radius: 100%; /* cercle */
+  padding: 5px; /* espace entre la photo et la bordure */
+  background-color: #FFF; /* fond blanc */
+  padding-left: 5px;
+}
+
+
 
 }
