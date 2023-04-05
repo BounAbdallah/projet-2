@@ -34,6 +34,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  background: linear-gradient(180deg, rgba(244, 244, 255, 0) 81.1%, rgba(109, 113, 118, 0.8) 99.56%);
 }
 
 .nav-bar h1 {
@@ -62,7 +63,7 @@ nav {
 
 .clavier {
   width: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 
@@ -213,7 +214,7 @@ section{
   word-spacing: 10px;
 }
 .image-container{
-  margin-top: 80px;
+  margin-top: 0px;
   margin-left: 30px;
 }
 .texte{
@@ -323,6 +324,12 @@ section{
   transform-style: preserve-3d; /* permet aux enfants de l'élément de conserver leur position en 3D */
   transition: transform 1s; /* ajoute une transition fluide lors de la transformation */
 }
+.box img{
+  width: 350px;
+  height: 300px;
+  transform-style: preserve-3d; /* permet aux enfants de l'élément de conserver leur position en 3D */
+  transition: transform 1s; /* ajoute une transition fluide lors de la transformation */
+}
 
 .box:hover {
   transform: rotateY(180deg); /* effectue une rotation de 180 degrés sur l'axe Y lors du survol */
@@ -333,13 +340,17 @@ section{
   position: absolute;
   width: 300px;
   height: 300px;
+  display: flex;
+  justify-items: center;
   backface-visibility: hidden; /* cache le côté invisible de l'élément lors de la rotation */
 }
-
+a{
+  color: whitesmoke;
+}
 .front {
   transform: translateZ(100px); /* définit la distance entre l'élément et l'observateur */
   background-color: rgb(255, 255, 255);
-  opacity: 80%;
+  opacity: 100%;
   color: black;
   display: flex;
   justify-content: center;
@@ -347,14 +358,14 @@ section{
 
 .back {
   transform: rotateY(180deg) translateZ(100px); /* retourne l'élément de 180 degrés sur l'axe Y pour montrer le côté arrière */
-  background-color: rgb(72, 170, 72);
-  color: white;
-  display: flex;
+  background-color: rgba(77, 77, 179, 0.8);
+  color: rgb(255, 255, 255);
+  
   justify-content: center;
 }
 
 .main{
-  margin-top: 500px;
+ 
   display: flex;
   justify-content: center;
 }
@@ -583,7 +594,7 @@ section{
   position: absolute;
   width: 150px;
   height: 150px;
-  border: 8px solid #4c7f94; /* bordure bleu ciel */
+  border: 8px solid rgba(25, 25, 28, 0.64) 58.02%, rgba(77, 77, 179, 0.8) 100%;
   border-radius: 100%; /* cercle */
   padding: 5px; /* espace entre la photo et la bordure */
   background-color: #FFF; /* fond blanc */
@@ -593,3 +604,33 @@ section{
 
 
 }
+
+ 
+.main{
+  background-image: url(projet.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+section{
+  height: 800px;
+  background: linear-gradient(180deg, rgba(25, 25, 28, 0) 59.75%, rgba(37, 37, 231, 0.8) 100%);
+}
+.main_2{
+  background-image: url(fond_3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.section_2 h2{
+  font-family: 'Alkatra', cursive;
+font-family: 'Cinzel Decorative', cursive;
+
+}
+.section_2{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 38.41%, rgba(78, 93, 230, 0.187163) 38.41%, rgba(231, 232, 249, 0.478601) 56.29%, rgba(24, 67, 117, 0.8) 82.25%);}
