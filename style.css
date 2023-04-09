@@ -14,8 +14,8 @@
 
 /* body */
 body {
-  background-color: #19191c;
-  color: #17e6e8;
+  background-color: #030317;
+  color: #ffffff;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -34,8 +34,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background: linear-gradient(180deg, rgba(244, 244, 255, 0) 81.1%, rgba(109, 113, 118, 0.8) 99.56%);
-}
+  background: linear-gradient(100.92deg, #A259FF 13.57%, #FF6250 97.65%)}
 
 .nav-bar h1 {
   font-size: 32px;
@@ -51,7 +50,7 @@ nav {
 }
 
 .nav-bar a {
-  color: #11b036;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -188,6 +187,8 @@ input:checked + .slider:before {
 }
 
 .developer {
+  
+  
   display: flex;
   align-items: center; 
 
@@ -303,7 +304,8 @@ section{
 #myBtn{
   width: 150px;
   height: 40px;
-  background: #4CAF50;
+  background: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
+border-radius: 25.8px;
   color: #FFF;
   border-bottom: none;
   border-radius: 10px;
@@ -461,7 +463,8 @@ a{
 
 /* Style du bouton d'ouverture */
 #open-modal {
-  background-color: #4CAF50;
+  background: linear-gradient(128.15deg, #A259FF 49.75%, #377DF7 136.56%);
+  border-radius: 25.8px;;
   border: none;
   color: white;
   padding: 10px;
@@ -607,21 +610,23 @@ section{
 
  
 .main{
-  background-image: url(projet.jpeg);
+  background-image: url(projt.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
   
 }
 section{
   height: 800px;
-  background: linear-gradient(180deg, rgba(25, 25, 28, 0) 59.75%, rgba(37, 37, 231, 0.8) 100%);
 }
-.main_2{
-  background-image: url(fond_3.jpeg);
-  background-repeat: no-repeat;
+.mai_2{
+  background-color: #030317;
+  background-size: 100%;
+
+}
+.col-1{
+  background-color: #030317;
   background-size: 100%;
 }
-
 
 .section_2 h2{
   font-family: 'Alkatra', cursive;
@@ -633,4 +638,10 @@ font-family: 'Cinzel Decorative', cursive;
   justify-content: space-evenly;
   margin-left: 20px;
   margin-right: 20px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 38.41%, rgba(78, 93, 230, 0.187163) 38.41%, rgba(231, 232, 249, 0.478601) 56.29%, rgba(24, 67, 117, 0.8) 82.25%);}
+  background-image: url(effet.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
