@@ -14,8 +14,8 @@
 
 /* body */
 body {
-  background-color: #030317;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #030317;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -151,8 +151,8 @@ input:checked + .slider:before {
 }
 
 .dark-mode {
-  background-color: #ffffff;
-  color: #253336;  
+  background-color: #030317;
+  color: #ffffff;  
 }
 
 .bin_abd {
